@@ -1,0 +1,58 @@
+@import url("../colors.css");
+
+* {
+	font-family:"JetBrains Mono";
+	font-size: 14px;
+  border-radius: 10px;
+}
+
+.modules-right {
+    margin:5px 5px 5px 5px;
+}
+
+.modules-center {
+    margin:5px 5px 5px 5px; 
+}
+
+.modules-left {
+    margin:5px 5px 5px 5px; 
+}
+
+window#waybar {
+    background: @background-darker;
+    color: @text;
+}
+
+#workspaces button {
+  padding: 0px 4px 0px 4px;
+  color: @comment;
+  border: none;
+}
+
+#workspaces button.active {
+  color: @text;
+}
+
+#workspaces button.urgent {
+  color: @yellow;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  color: @text;
+}
+
+#clock {
+  margin-right: 9px;
+}
+
+tooltip {
+     border-radius: 10px;
+     background-color: #1a1b26;
+}
+
+tooltip label {
+  color: @text;
+}
+
+

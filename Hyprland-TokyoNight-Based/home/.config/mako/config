@@ -1,0 +1,23 @@
+sort=-time
+layer=overlay
+text-color=#c0caf5
+background-color=#1a1b26
+width=250
+height=150
+outer-margin=10,10
+padding=0
+border-size=2
+border-color=#bb9af7
+border-radius=10
+icons=0
+
+default-timeout=3000
+
+font=JetBrains Mono 10
+
+text-alignment=center
+
+[urgency=high]
+background-color=#1a1b26
+text-color=#c0caf5
+default-timeout=3000

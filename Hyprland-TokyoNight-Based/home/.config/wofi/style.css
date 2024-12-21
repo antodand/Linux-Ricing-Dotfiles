@@ -1,0 +1,60 @@
+@define-color background-darker #1a1b26;
+@define-color background #414868;
+@define-color text #9aa5ce;
+@define-color foreground #a9b1d6;
+@define-color comment #565f89;
+
+@define-color white #c0caf5;
+@define-color magenta #bb9af7;
+@define-color blue #7aa2f7;
+@define-color green #73daca;
+@define-color yellow #e0af68;
+@define-color red #f7768e;
+@define-color cyan #7dcfff;
+
+@define-color orange #ff9e64;
+@define-color celeste #B4F9F8;
+@define-color light-blue #7DCFFF;
+
+* {
+  font-family: "JetBrains Mono";
+  font-size: 14px;
+  color: @comment;
+}
+
+#window {
+	background: @background-darker;
+}
+
+#outer-box {
+	padding: 20px;
+}
+
+#input {
+	background: @background-darker;
+  border: 2px solid transparent;
+  outline: none;
+  box-shadow: 0px 0px 0px 0px #FFFFFF inset;
+}
+
+#scroll {
+	margin-top: 20px;
+}
+
+#img {
+	padding-right: 8px;
+}
+
+#entry {
+  border: 2px solid transparent;
+	padding: 6px;
+}
+
+#entry:selected {
+  background: @background-darker;
+  outline: none;
+}
+
+#text:selected {
+  color: @text;
+}
